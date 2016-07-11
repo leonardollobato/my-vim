@@ -1,5 +1,7 @@
 "------------------New Mappings---------------"
 "set nocompatible              " be iMproved, required
+set foldcolumn=0
+hi foldcolumn guibg=bg
 set autochdir
 so ~/.vim/plugins.vim
 set expandtab
@@ -34,7 +36,8 @@ set number
 
 "Line Spacing, Work in MacVim"
 set linespace=10
-map <C-n> :NERDTreeToggle<CR>
+nmap <D-1> :NERDTreeToggle<CR>
+
 "---------------Searching-------------------"
 set splitbelow
 set splitright
